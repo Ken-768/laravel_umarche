@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class LifeCycleController extends Controller
 {
+    public function showServiceProviderTest() {
+        $sample = app()->make('serviceProviderTest');
+    }
     public function showServiceContainerTest()
     {
         app()->bind('lifeCycleTest', function() {
