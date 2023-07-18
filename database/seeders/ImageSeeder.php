@@ -22,7 +22,7 @@ class ImageSeeder extends Seeder
             ],
             [
                 'owner_id' => 1,
-                'filename' => 'sample2.jpg',
+                'filename' => 'sample2.png',
                 'title' => null
             ],
             [
@@ -32,17 +32,17 @@ class ImageSeeder extends Seeder
             ],
             [
                 'owner_id' => 1,
-                'filename' => 'sample4.jpg',
+                'filename' => 'sample4.png',
                 'title' => null
             ],
             [
                 'owner_id' => 1,
-                'filename' => 'sample5.jpg',
+                'filename' => 'sample5.png',
                 'title' => null
             ],
             [
                 'owner_id' => 1,
-                'filename' => 'sample6.jpg',
+                'filename' => 'sample6.png',
                 'title' => null
             ]
         ]);
